@@ -5,9 +5,8 @@ int main (int argc, const char * argv[])
     @autoreleasepool
     {
         NSDictionary *options = [NSDictionary dictionaryWithObjectsAndKeys:
-            @"/Users/keith/Pictures/x/tumblr_lof3frs5nL1qgc9j3o1_1280.jpg", @"image",
-            @"tits",                                                        @"top",
-            @"fuck yeah",                                                   @"bottom",
+            @"",                                                            @"top",
+            @"",                                                            @"bottom",
             [NSNumber numberWithBool:YES],                                  @"forceUppercase",
             @"Impact",                                                      @"font",
             [NSNumber numberWithDouble:48.0],                               @"fontSize",
@@ -24,7 +23,7 @@ int main (int argc, const char * argv[])
                 strcmp(argv[i], "-h") == 0 ||
                 strcmp(argv[i], "--help") == 0)
             {
-                for (id k in options)
+                for (id k in [[options allKeys] sortedArrayUsingSelector:@selector(compare:)])
                 {
                     printf("-%s (default: \"%s\")\n", [[[k description] stringByPaddingToLength:20 withString:@" " startingAtIndex:0] UTF8String], [[[D objectForKey:k] description] UTF8String]);
                 }
@@ -67,6 +66,11 @@ int main (int argc, const char * argv[])
             nil];
 
         NSString *imagePath  = [D stringForKey:@"image"];
+        if (!imagePath)
+        {
+            printf("Must specify -image\n");
+            return EXIT_FAILURE;
+        }
         NSString *topText    = [D stringForKey:@"top"];
         NSString *bottomText = [D stringForKey:@"bottom"];
         
