@@ -7,28 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53767E1B148AC6FC00FCB8B6 /* ORImageOutputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53767E1A148AC6FC00FCB8B6 /* ORImageOutputView.m */; };
 		539675AF1481D90D000D4D6B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 539675AE1481D90D000D4D6B /* Cocoa.framework */; };
 		539675B91481D90D000D4D6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 539675B71481D90D000D4D6B /* InfoPlist.strings */; };
 		539675BB1481D90D000D4D6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 539675BA1481D90D000D4D6B /* main.m */; };
 		539675BF1481D90D000D4D6B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 539675BD1481D90D000D4D6B /* Credits.rtf */; };
 		539675C21481D90D000D4D6B /* ORAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 539675C11481D90D000D4D6B /* ORAppDelegate.m */; };
 		539675C51481D90D000D4D6B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 539675C31481D90D000D4D6B /* MainMenu.xib */; };
+		539675D31481F334000D4D6B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 539675D21481F334000D4D6B /* QuartzCore.framework */; };
+		539675E014830106000D4D6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 539675DF14830106000D4D6B /* Foundation.framework */; };
+		539675E314830106000D4D6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 539675E214830106000D4D6B /* main.m */; };
+		539675EC1483071E000D4D6B /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 539675EB1483071E000D4D6B /* ApplicationServices.framework */; };
+		539675F714833AC0000D4D6B /* yarly in CopyFiles */ = {isa = PBXBuildFile; fileRef = 539675DD14830106000D4D6B /* yarly */; };
+		539675FA148342E3000D4D6B /* ORImageInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 539675F9148342E3000D4D6B /* ORImageInputView.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		539675F214832E66000D4D6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 539675A11481D90D000D4D6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 539675DC14830106000D4D6B;
+			remoteInfo = yarly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		539675DB14830106000D4D6B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		539675F614833AB2000D4D6B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				539675F714833AC0000D4D6B /* yarly in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		53767E19148AC6FC00FCB8B6 /* ORImageOutputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORImageOutputView.h; sourceTree = "<group>"; };
+		53767E1A148AC6FC00FCB8B6 /* ORImageOutputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORImageOutputView.m; sourceTree = "<group>"; };
 		539675AA1481D90D000D4D6B /* ORLY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ORLY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		539675AE1481D90D000D4D6B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		539675B11481D90D000D4D6B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		539675B21481D90D000D4D6B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		539675B31481D90D000D4D6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		539675B61481D90D000D4D6B /* ORLY-Info.plist */ = {isa = PBXFileReference; path = "ORLY-Info.plist"; sourceTree = "<group>"; };
+		539675B61481D90D000D4D6B /* ORLY-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ORLY-Info.plist"; sourceTree = "<group>"; };
 		539675B81481D90D000D4D6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		539675BA1481D90D000D4D6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		539675BC1481D90D000D4D6B /* ORLY-Prefix.pch */ = {isa = PBXFileReference; path = "ORLY-Prefix.pch"; sourceTree = "<group>"; };
+		539675BC1481D90D000D4D6B /* ORLY-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ORLY-Prefix.pch"; sourceTree = "<group>"; };
 		539675BE1481D90D000D4D6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		539675C01481D90D000D4D6B /* ORAppDelegate.h */ = {isa = PBXFileReference; path = ORAppDelegate.h; sourceTree = "<group>"; };
+		539675C01481D90D000D4D6B /* ORAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORAppDelegate.h; sourceTree = "<group>"; };
 		539675C11481D90D000D4D6B /* ORAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORAppDelegate.m; sourceTree = "<group>"; };
 		539675C41481D90D000D4D6B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		539675D21481F334000D4D6B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		539675DD14830106000D4D6B /* yarly */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = yarly; sourceTree = BUILT_PRODUCTS_DIR; };
+		539675DF14830106000D4D6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		539675E214830106000D4D6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		539675E514830106000D4D6B /* yarly-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "yarly-Prefix.pch"; sourceTree = "<group>"; };
+		539675EB1483071E000D4D6B /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		539675F8148342E3000D4D6B /* ORImageInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; path = ORImageInputView.h; sourceTree = "<group>"; };
+		539675F9148342E3000D4D6B /* ORImageInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORImageInputView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +85,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				539675D31481F334000D4D6B /* QuartzCore.framework in Frameworks */,
 				539675AF1481D90D000D4D6B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		539675DA14830106000D4D6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				539675EC1483071E000D4D6B /* ApplicationServices.framework in Frameworks */,
+				539675E014830106000D4D6B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,7 +105,10 @@
 		5396759F1481D90D000D4D6B = {
 			isa = PBXGroup;
 			children = (
+				539675EB1483071E000D4D6B /* ApplicationServices.framework */,
+				539675D21481F334000D4D6B /* QuartzCore.framework */,
 				539675B41481D90D000D4D6B /* ORLY */,
+				539675E114830106000D4D6B /* yarly */,
 				539675AD1481D90D000D4D6B /* Frameworks */,
 				539675AB1481D90D000D4D6B /* Products */,
 			);
@@ -56,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				539675AA1481D90D000D4D6B /* ORLY.app */,
+				539675DD14830106000D4D6B /* yarly */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				539675AE1481D90D000D4D6B /* Cocoa.framework */,
+				539675DF14830106000D4D6B /* Foundation.framework */,
 				539675B01481D90D000D4D6B /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -84,6 +148,10 @@
 			children = (
 				539675C01481D90D000D4D6B /* ORAppDelegate.h */,
 				539675C11481D90D000D4D6B /* ORAppDelegate.m */,
+				539675F8148342E3000D4D6B /* ORImageInputView.h */,
+				539675F9148342E3000D4D6B /* ORImageInputView.m */,
+				53767E19148AC6FC00FCB8B6 /* ORImageOutputView.h */,
+				53767E1A148AC6FC00FCB8B6 /* ORImageOutputView.m */,
 				539675C31481D90D000D4D6B /* MainMenu.xib */,
 				539675B51481D90D000D4D6B /* Supporting Files */,
 			);
@@ -102,6 +170,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		539675E114830106000D4D6B /* yarly */ = {
+			isa = PBXGroup;
+			children = (
+				539675E214830106000D4D6B /* main.m */,
+				539675E414830106000D4D6B /* Supporting Files */,
+			);
+			path = yarly;
+			sourceTree = "<group>";
+		};
+		539675E414830106000D4D6B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				539675E514830106000D4D6B /* yarly-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,15 +197,34 @@
 				539675A61481D90D000D4D6B /* Sources */,
 				539675A71481D90D000D4D6B /* Frameworks */,
 				539675A81481D90D000D4D6B /* Resources */,
+				539675F614833AB2000D4D6B /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				539675F314832E66000D4D6B /* PBXTargetDependency */,
 			);
 			name = ORLY;
 			productName = ORLY;
 			productReference = 539675AA1481D90D000D4D6B /* ORLY.app */;
 			productType = "com.apple.product-type.application";
+		};
+		539675DC14830106000D4D6B /* yarly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 539675E814830106000D4D6B /* Build configuration list for PBXNativeTarget "yarly" */;
+			buildPhases = (
+				539675D914830106000D4D6B /* Sources */,
+				539675DA14830106000D4D6B /* Frameworks */,
+				539675DB14830106000D4D6B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yarly;
+			productName = yarly;
+			productReference = 539675DD14830106000D4D6B /* yarly */;
+			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
@@ -143,6 +247,7 @@
 			projectRoot = "";
 			targets = (
 				539675A91481D90D000D4D6B /* ORLY */,
+				539675DC14830106000D4D6B /* yarly */,
 			);
 		};
 /* End PBXProject section */
@@ -167,10 +272,28 @@
 			files = (
 				539675BB1481D90D000D4D6B /* main.m in Sources */,
 				539675C21481D90D000D4D6B /* ORAppDelegate.m in Sources */,
+				539675FA148342E3000D4D6B /* ORImageInputView.m in Sources */,
+				53767E1B148AC6FC00FCB8B6 /* ORImageOutputView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		539675D914830106000D4D6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				539675E314830106000D4D6B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		539675F314832E66000D4D6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 539675DC14830106000D4D6B /* yarly */;
+			targetProxy = 539675F214832E66000D4D6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		539675B71481D90D000D4D6B /* InfoPlist.strings */ = {
@@ -253,6 +376,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ORLY/ORLY-Prefix.pch";
 				INFOPLIST_FILE = "ORLY/ORLY-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -264,8 +388,27 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ORLY/ORLY-Prefix.pch";
 				INFOPLIST_FILE = "ORLY/ORLY-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		539675E914830106000D4D6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "yarly/yarly-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		539675EA14830106000D4D6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "yarly/yarly-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -288,6 +431,16 @@
 				539675CA1481D90D000D4D6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		539675E814830106000D4D6B /* Build configuration list for PBXNativeTarget "yarly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				539675E914830106000D4D6B /* Debug */,
+				539675EA14830106000D4D6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
